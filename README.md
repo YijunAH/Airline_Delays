@@ -35,9 +35,20 @@ Fig. 3 Box plot of number of flights in each day of week (left), 12 months in a 
 In section 4, I looked at if departure time shows great impact in departure delay. Moving to the next step, I explored the effect of destination towards delay. I summarized results and took a closer look at the ten most popular ten places from SFO. As I expected, Los Angles is the most commonly flew place from SFO. In Fig. 4, Most of these destinations shows departure delay around 10 min (mean) and -1 min (median).
 
 ![DestDelay](doc/DestDelay.png?raw=true "DestDelay")
-Fig. 4 Mean and median of departure delay (in mins) with the top ten popular destination from SFO.
+Fig. 4 Mean and median of departure delay (in mins) with the top ten popular destination from SFO. Black bar is the mean and red bar is the median. If there is no bar, it means it is zero, like “ORD” in this plot
+
+Since I looked at different destination, we next think about whether different carrier can result difference in departure delay. I always heard different carriers bragge about their being the most ‘on-time airline’ . In this dataset, the top three most popular carriers are “UA” (United Airline), “OO” (SkyWest Airlines) and “AA” (American Airline), these three have very similar delay performance. It is “NW” (Northwest Airlines) which shows smaller median and mean in departure delay.
+
+![MeanMedianDepDelayCarrier](doc/MeanMedianDepDelayCarrier.png?raw=true "MeanMedianDepDelayCarrier")
+
+Fig. 5 Mean and median of departure delay (in mins) with the top ten popular carriers from SFO. Black bar is the mean and red bar is the median. If there is no bar, it means it is zero, like “OO”, “US” and “WN” in this plot
 
 
+![DestDelay](doc/DestDelay.png?raw=true "DestDelay")
+Fig. 6
+
+![DestDelay](doc/DestDelay.png?raw=true "DestDelay")
+Fig. 5 
 # Conclusions
 
 
@@ -48,3 +59,4 @@ The airline on-time performance data used in this study can be found at
 
 
 The page also provides descriptions of each of the 29 variables associated with each flight. 
+
