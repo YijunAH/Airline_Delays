@@ -50,7 +50,7 @@ Fig. 5 Mean and median of departure delay (in mins) with the top ten popular car
 
 Carrier related delay, weather related delay, NAS(National Air System Delay: https://www.transtats.bts.gov/Fields.asp?Table_ID=236) delay, security related delay, late aircraft delay, there are different reasons behind departure or arrival delay. But what are the most common ones? Due to weather in Nov. and Dec.? Due to the previous late aircraft? In section 8, I explored the reason behind flight delay with the top eight most flew carrier in different years. In 2008, the mean of departure delay get significantly longer while from 2005 to 2007 for all carriers, the mean stay almost unchanged. For each carrier, from 2005 to 2008, the main delay reason stay almost the same. For most carrier, late aircraft delay is their main delay reason. ‘OO’ shows more carrier delay than other carriers. ‘AS’ has a obvious more deal due to late aircraft. Through out the years and different carriers, the delay due to security is negligible. Security crews at SFO airport is efficient in examining luggage.
 
-![DelayReasonsYear](doc/DelayReasonsYear?raw=true "DelayReasonsYear")
+![DelayReasonsYear](doc/DelayReasonsYear.png?raw=true "DelayReasonsYear")
 
 Fig. 6 Box plot of departure delay reason from 2005 to 2008.
 
